@@ -1,4 +1,4 @@
-# Linux Command
+# Machine Command
 
 * top
 * htop
