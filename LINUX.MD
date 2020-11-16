@@ -2,6 +2,7 @@
 
 * top
 * htop
+* iotop
 
 # Network Command
 
@@ -9,7 +10,9 @@
 * ifconfig // ipconfig
 * traceroute
 * wget
+* netstat
 
 # Send & Receive
 
+* scp
 * rsync
