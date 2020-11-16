@@ -15,21 +15,22 @@
   * `-a` shows disk usage for all files
   * `-h` shows disk usage in human-readable format for all directories and subdirectories
   * `-s` provides total disk space used by a particular file or directory
-* ls
+* `ls`
   * `-a` shows all files
   * `-l` shows as list
-* stat
-* fdisk -l
+* `stat`
+* `fdisk`
+  * `-l`
 
 # Network Command
 
-* ping
-* ifconfig // ipconfig
-* traceroute
-* wget
-* netstat
+* `ping`
+* `ifconfig` or `ipconfig`
+* `traceroute`
+* `wget`
+* `netstat`
 
 # Send & Receive
 
-* scp
-* rsync
+* `scp`
+* `rsync`
