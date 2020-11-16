@@ -6,7 +6,9 @@
 
 ### Stop and remove all running docker
 
-> docker stop $(docker ps -a -q)
-> docker rm $(docker ps -a -q)
+```
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
 
 [Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
