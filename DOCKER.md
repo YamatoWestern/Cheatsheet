@@ -1,3 +1,12 @@
+### Monitor docker
+
+* `docker stats`
+* `docker logs <container id>`
+
+### Docker compose
+
+* `docker-compose -f <compose file> up -d --no-deps <container name>`
+
 ### Docker prune
 
 * `docker system prune`

@@ -58,4 +58,21 @@ Once you have this tool installed, insert into your code a statement to invoke t
 
 > import pdb; pdb.set_trace()
 
-Reference: [Python performance analysis](https://everyhue.me/posts/python-performance-analysis/)
+### Check memory usages
+
+```
+import tracemalloc
+
+tracemalloc.start() # for measure memory usage
+snapshot1 = tracemalloc.take_snapshot()
+...
+snapshot2 = tracemalloc.take_snapshot()
+top_stats = snapshot2.compare_to(snapshot1, 'lineno')
+print("[ Top 10 differences ]")
+for stat in top_stats[:10]:
+    print(stat)
+```
+
+### Reference
+
+* [Python performance analysis](https://everyhue.me/posts/python-performance-analysis/)

@@ -30,6 +30,12 @@
 * `wget`
 * `netstat`
 
+# Preview file
+
+* `cat`
+* `top`
+* `tail`
+
 # Send & Receive
 
 * `scp`
